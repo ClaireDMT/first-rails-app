@@ -1,0 +1,17 @@
+<h1>Hey! Contact us here</h1>
+<p>Dummy paragraph...</p>
+<p><%= Time.now %></p>
+
+<br>
+
+<h2>List of Stockholm Teachers</h2>
+
+<ul>
+  <% @teachers.each do |teacher| %>
+    <li><%= teacher %></l>
+  <% end %>
+</ul>
+
+<div>
+  <%= link_to "Back to Home Page", root_path  %>
+</div>

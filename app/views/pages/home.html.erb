@@ -1,0 +1,23 @@
+<h1>Welcome to our first rails app</h1>
+
+<h2>YEAAAAAAAAAAAAAAAAAAAAAAAAAAh!</h2>
+
+<!-- <a href="/contact">Contact</a>
+ -->
+
+<h3>Who do you want to reach out?</h3>
+
+<form action="/contact" method="get">
+  <input type="text" name="teacher" placeholder="Who are you looking for?">
+  <input type="submit">
+</form>
+
+
+<!-- LINKS TO PAGES -->
+
+<div>
+ <%= link_to "Contact us", contact_path  %>
+</div>
+<div>
+ <%= link_to "About us", about_us_path  %>
+</div>
